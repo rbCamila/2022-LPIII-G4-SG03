@@ -10,11 +10,11 @@ public class Principal {
 			vida++;
 			System.out.println("Vida:"+ vida +"\t¿Cuál es el número secreto? ");
 			rp = sc.nextInt();
-			if(rp == 2)
+			if(rp == 1234)
 				fl = true;
-		} while(vida < 4 && !fl);
+		} while(vida < 3 && !fl);
 		if(fl == true)
-			System.out.println("Bien hecho. Adivinaste!!!! ");
+			System.out.println("Adivinaste!!!! Se hizo acreedor de un viaje a Francia.");
 		else
 			System.out.println("ups, perdiste...");
 	}
