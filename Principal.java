@@ -14,7 +14,7 @@ public class Principal {
 				fl = true;
 		} while(vida < 4 && !fl);
 		if(fl == true)
-			System.out.println("Adivinaste!!!! ");
+			System.out.println("Bien hecho. Adivinaste!!!! ");
 		else
 			System.out.println("ups, perdiste...");
 	}
