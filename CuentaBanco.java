@@ -49,7 +49,7 @@ public class CuentaBanco { //clase CuentaBanco
 
     public static Double ingresar (CuentaBanco c1, double cantidad) {
         c1.getCantidad();
-        while (cantidad < 0){
+        if (cantidad < 0){
             System.out.println("Cantidad no valida");
         }
         return cantidad;
