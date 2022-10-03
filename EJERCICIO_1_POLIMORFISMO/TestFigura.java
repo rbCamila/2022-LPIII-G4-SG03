@@ -15,8 +15,8 @@ public class TestFigura {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int countBi = 0;
-        int countTri = 0;
+        int countBidimesional = 0;
+        int countTridimensional = 0;
         
         Object arr[] = {new Circulo(4),
                         new Cuadrado(10),
@@ -30,15 +30,15 @@ public class TestFigura {
         
         
             if(a instanceof FiguraBidimensional){
-                countBi++;
+                countBidimesional++;
             }
 
             if(a instanceof FiguraTridimensional){
-                countTri++;
+                countTridimensional++;
             }
         }
-        System.out.println("En el arreglo FigurasGeometricas hay: "+ countBi +" figuras geometricas bidimensionales");
-        System.out.println("En el arreglo FigurasGeometricas hay: "+ countTri +" figuras geometricas tridimensionales");
+        System.out.println("Hay: "+ countBidimesional +" figuras geometricas bidimensionales");
+        System.out.println("Hay: "+ countTridimensional +" figuras geometricas tridimensionales");
 
     }
     
