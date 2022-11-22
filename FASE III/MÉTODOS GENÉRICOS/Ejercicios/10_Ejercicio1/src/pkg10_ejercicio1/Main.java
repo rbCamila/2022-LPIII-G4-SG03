@@ -13,7 +13,7 @@ public class Main {
         for (String elemento : cadena) {
             cont++;
             System.out.printf("%s\t", elemento);
-            if (cont == 4)
+            if (cont % 4 == 0)
                 System.out.printf("\n");
         }
         System.out.println("\n");
